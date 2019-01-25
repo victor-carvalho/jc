@@ -1,0 +1,16 @@
+[package]
+name = "jc"
+version = "0.1.0"
+authors = ["Victor Carvalho <carvalhogvm@gmail.com>"]
+edition = "2018"
+license = "Unlicense"
+
+[dependencies]
+failure = "0.1.5"
+atty = "0.2.11"
+serde_json = "1.0.37"
+
+[dependencies.clap]
+version = "2.32.0"
+default-features = false
+features = ["suggestions"]
